@@ -1,0 +1,43 @@
+---
+---
+@import "minima";   /* carica il CSS del tema */
+
+/* Footer personalizzato */
+footer.site-footer {
+  display: flex;
+  align-items: center;    /* centra verticalmente */
+  justify-content: center;/* centra orizzontalmente */
+  height: 2.2rem;         /* altezza costante */
+  padding: 0.4rem 0;      /* spaziatura verticale */
+  font-size: 0.85rem;     /* dimensione testo */
+  text-align: center;
+  border-top: 1px solid #eee;
+  margin-top: 1rem;
+}
+
+footer.site-footer a {
+  margin: 0 .3rem;
+  font-size: 0.85rem;
+  text-decoration: none;
+}
+
+
+/* Icone nel footer */
+footer.site-footer img.icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 .4rem;
+  vertical-align: middle;
+  filter: grayscale(100%);   /* icone grigie */
+  transition: filter .2s;
+}
+
+footer.site-footer a:hover img.icon {
+  filter: none;              /* tornano colorate al passaggio */
+}
+
+footer.site-footer .footer-text {
+  margin: 0;        /* elimina margini verticali del <p> */
+  line-height: 1;   /* compattiamo la linea */
+}
+
