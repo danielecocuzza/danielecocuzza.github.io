@@ -6,7 +6,7 @@ permalink: /cv/
 
 ## Daniele Cocuzza
 
-[Scarica il CV in PDF]({{ '/assets/cv/daniele-cocuzza-cv.pdf' | relative_url }}){: .btn }
+[Scarica il CV in PDF]({{ '/assets/cv/Cocuzza-Daniele-Resume.pdf' | relative_url }}){: .btn }
 
 ### Profilo
 Studente/neo-laureato in Informatica (Data Science) – interessi in Computer Vision e Machine Learning.
