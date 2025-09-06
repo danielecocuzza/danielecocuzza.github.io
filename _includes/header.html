@@ -1,13 +1,30 @@
 <header class="site-header">
-  <div class="wrapper">
-    <!-- Titolo: link alla home -->
+  <div class="wrapper nav-wrap">
     <a class="site-title" rel="author" href="{{ '/' | relative_url }}">{{ site.title }}</a>
 
-    <!-- Menu: voci esplicite, senza "Home" -->
-    <nav class="site-nav">
-      <a class="page-link" href="{{ '/projects/'| relative_url }}">Projects</a>
-      <a class="page-link" href="{{ '/blog/'    | relative_url }}">Blog</a>
-      <a class="page-link" href="{{ '/cv/'      | relative_url }}">CV</a>
+    <!-- Bottone hamburger (solo mobile) -->
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="site-menu">
+      ☰
+    </button>
+
+    <!-- Menu -->
+    <nav id="site-menu" class="site-nav">
+      <a class="page-link" href="{{ '/projects/' | relative_url }}">Projects</a>
+      <a class="page-link" href="{{ '/blog/'     | relative_url }}">Blog</a>
+      <a class="page-link" href="{{ '/cv/'       | relative_url }}">CV</a>
     </nav>
   </div>
+
+  <script>
+    // toggle semplice senza librerie
+    (function () {
+      var btn = document.querySelector('.nav-toggle');
+      var menu = document.getElementById('site-menu');
+      if (!btn || !menu) return;
+      btn.addEventListener('click', function () {
+        var open = menu.classList.toggle('is-open');
+        btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      });
+    })();
+  </script>
 </header>
