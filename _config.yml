@@ -1,3 +1,9 @@
 title: "Daniele Cocuzza"
 description: "Portfolio e progetti"
 theme: minima
+
+header_pages:
+  - about.md
+  - projects.md
+  - blog.md
+  - cv.md
