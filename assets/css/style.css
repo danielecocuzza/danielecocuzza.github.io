@@ -14,8 +14,38 @@ a:hover { opacity:.85; }
 
 .wrapper { max-width: 980px; margin:0 auto; padding:1.2rem; }
 
-.site-header { position: sticky; top:0; background:#fff; border-bottom:1px solid #eee; z-index:20; }
-.site-nav .page-link { margin-left:1rem; }
+.site-header {
+  position: sticky;
+  top: 0;
+  background: white;
+  border-bottom: 1px solid #eee;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+  z-index: 20;
+}
+
+.site-header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .8rem 1.2rem;
+}
+
+.site-title {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: var(--accent);
+}
+
+.site-nav .page-link {
+  margin-left: 1.2rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: #333;
+}
+
+.site-nav .page-link:hover {
+  color: var(--accent);
+}
 
 .hero { margin-top:1.5rem; padding:3rem 1.2rem; background:#f7f7ff; border:1px solid #eee; border-radius:1rem; text-align:left; }
 .hero h1 { font-size:2.4rem; margin:0 0 .4rem; }
