@@ -1,4 +1,27 @@
 title: "Daniele Cocuzza"
-description: "Portfolio e progetti"
+description: "Portfolio, progetti e contatti"
 theme: minima
 author: "Daniele Cocuzza"
+url: "https://danielecocuzza.github.io"
+
+# Pagine in menu
+header_pages:
+  - index.md
+  - projects.md
+  - blog.md
+  - about.md
+
+# Plugin supportati da GitHub Pages
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Opzioni varie
+permalink: /:categories/:title/
+timezone: Europe/Rome
+
+# Social per minima (compaiono nel footer)
+github_username: danielecocuzza
+# twitter_username: tuo_handle
+# linkedin: tuo_handle

@@ -1,0 +1,22 @@
+---
+---
+@import "{{ site.theme }}";
+
+/* wrapper e gerarchia tipografica */
+.wrapper { max-width: 980px; margin: 0 auto; padding: 1.2rem; }
+h1, h2, h3 { letter-spacing: .2px; }
+
+/* header */
+.nav { display: flex; align-items: center; justify-content: space-between; }
+.site-nav .page-link { margin-left: 1rem; }
+
+/* hero */
+.hero { padding: 2.5rem 0 1rem; }
+.hero .cta { margin-top: 1rem; }
+.btn { display: inline-block; padding: .55rem 1rem; border-radius: .6rem; border: 1px solid currentColor; }
+.btn.outline { background: transparent; }
+
+/* cards progetti */
+.cards { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; }
+.card { border: 1px solid #e5e5e5; border-radius: .8rem; padding: 1rem; }
+.tags { opacity: .7; font-size: .9rem; }
