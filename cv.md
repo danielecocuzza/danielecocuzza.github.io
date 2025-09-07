@@ -10,7 +10,7 @@ permalink: /cv/
 <div class="cv-header">
   <h1>Daniele Cocuzza</h1>
   <div class="cv-download">
-    <a href="/assets/cv/Daniele-Cocuzza-CV.pdf" target="_blank" class="pdf-btn">
+    <a href="/assets/cv/Cocuzza-Daniele.Resume.pdf" target="_blank" class="pdf-btn">
       <span class="pdf-icon">📄</span>
     </a>
     <p>Download Resume (PDF)</p>
