@@ -4,25 +4,34 @@ title: Projects
 permalink: /projects/
 ---
 
-<p>Qui troverai una selezione dei miei progetti.</p>
 
 <div class="projects-grid">
   <div class="project-card">
-    <h3>Road signs detection</h3>
-    <p>Rilevamento cartelli stradali con YOLO e Faster R-CNN.</p>
-    <a href="https://github.com/danielecocuzza/road-signs-detection" target="_blank" class="project-link">🔗 GitHub</a>
+    <h3>Coin Detection & Recognition</h3>
+    <p>Coin detection and classification from images using YOLO.</p>
+    <a href="https://github.com/danielecocuzza/coin_recognition" target="_blank" class="project-link">🔗 GitHub</a>
   </div>
 
   <div class="project-card">
-    <h3>MS lesion segmentation</h3>
-    <p>Segmentazione 3D di lesioni con MONAI e nnU-Net.</p>
-    <a href="https://github.com/danielecocuzza/ms-lesion-segmentation" target="_blank" class="project-link">🔗 GitHub</a>
+    <h3>NLP Sentiment Analysis</h3>
+    <p>Sentiment analysis with BERT embeddings and a lexicon-based K-NN approach.</p>
+    <a href="https://github.com/danielecocuzza/nlp-sentiment-analysis" target="_blank" class="project-link">🔗 GitHub</a>
   </div>
 
+  <div class="project-card">
+    <h3>NLP Sentiment Analysis</h3>
+    <p>Insights on sightings: peak times, hotspots, and weather conditions.</p>
+    <a href="https://github.com/danielecocuzza/ufo_sightings" target="_blank" class="project-link">🔗 GitHub</a>
+  </div>
+
+
+  <!--
   <div class="project-card">
     <h3>Texture analysis</h3>
     <p>Studio e appunti su LBP, Gabor, HOG.</p>
-    <!-- Nessun link GitHub -->
+    Nessun link GitHub 
   </div>
+  -->
+
 </div>
 
