@@ -170,6 +170,119 @@ footer.site-footer .footer-text {
   }
 }
 
+/* Featured Projects as cards */
+.proj-card {
+  background: #f5f8fa;                 /* azzurro/grigio molto chiaro */
+  border: 1px solid #dce3e9;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,.04);
+  transition: transform .15s ease, box-shadow .15s ease, border-color .15s ease;
+}
+
+.proj-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,.08);
+  border-color: #b5c7d6;               /* bordo più marcato in hover */
+}
+
+.proj-card h3 {
+  margin: 0 0 .4rem;
+  font-size: 1.05rem;
+  color: #2c3e50;                      /* titolo coerente con la top bar */
+}
+
+.proj-card p {
+  margin: 0 0 .8rem;
+  color: #444;
+}
+
+.proj-card a {
+  font-weight: 600;
+  text-decoration: none;
+  color: #0f62fe;                      /* blu acceso per i link */
+}
+
+.proj-card a:hover {
+  text-decoration: underline;
+}
+
+/* Bottone "See all projects" */
+a.see-all-projects {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: .5rem 1rem;
+  background: #2c3e50;        /* stesso blu della top bar */
+  color: #fff !important;     /* testo bianco */
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: .4rem;
+  transition: background .2s ease, transform .15s ease;
+}
+
+a.see-all-projects:hover {
+  background: #6c5ce7;        /* verde acqua in hover */
+  transform: translateY(-2px);
+}
+
+/* Timeline style for posts */
+.post-list {
+  margin: 2rem 0;
+  padding-left: 0;
+  list-style: none;
+  position: relative;
+}
+
+.post-list::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 10px;
+  width: 3px;
+  height: 100%;
+  background: #d1d5db; /* grigio linea */
+}
+
+.post-list > li {
+  position: relative;
+  margin: 0 0 2rem 2.5rem;
+  padding: 0;
+}
+
+.post-list > li::before {
+  content: "";
+  position: absolute;
+  top: .4rem;
+  left: -28px;
+  width: 14px;
+  height: 14px;
+  background: #2c3e50;  /* punto blu scuro (coerente con top bar) */
+  border: 3px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px #2c3e50;
+}
+
+.post-meta {   /* la data */
+  font-size: .85rem;
+  font-weight: 600;
+  color: #6b7280;  /* grigio tenue */
+}
+
+.post-link {   /* il titolo */
+  display: block;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #0f62fe;
+  margin-top: .2rem;
+  text-decoration: none;
+  transition: color .2s ease;
+}
+
+.post-link:hover {
+  color: #6c5ce7;   /* viola elegante */
+}
+
+
    
   
 

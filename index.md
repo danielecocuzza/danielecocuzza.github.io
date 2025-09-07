@@ -30,10 +30,29 @@ I am particularly interested in applying Artificial Intelligence and data-driven
 
 ## Featured Projects
 
-- **Coin Detection & Recognition** — Coin Detection and Classification from images using YOLO [Repository](https://github.com/danielecocuzza/coin_recognition)  
-- **NLP Sentiment Analysis** — Sentiment analysis through BERT embeddings (both contextual and non-contextual) and a lexicon-based K-Nearest Neighbors (K-NN) approach. [Repository](https://github.com/danielecocuzza/nlp-sentiment-analysis)  
-- **UFO Sightings** — Analysis of UFO sightings reports to identify key insights and correlations, such as peak sighting times, hotspots for reports, and weather conditions. [Repository](https://github.com/danielecocuzza/ufo_sightings)
+<div class="proj-cards">
+  <article class="proj-card">
+    <h3>Coin Detection & Recognition</h3>
+    <p>Coin detection and classification from images using YOLO.</p>
+    <a href="https://github.com/danielecocuzza/coin_recognition">Repository →</a>
+  </article>
 
-[See all projects](/projects/)
+  <article class="proj-card">
+    <h3>NLP Sentiment Analysis</h3>
+    <p>Sentiment analysis with BERT embeddings and a lexicon-based K-NN approach.</p>
+    <a href="https://github.com/danielecocuzza/nlp-sentiment-analysis">Repository →</a>
+  </article>
 
+  <article class="proj-card">
+    <h3>UFO Sightings</h3>
+    <p>Insights on sightings: peak times, hotspots, and weather conditions.</p>
+    <a href="https://github.com/danielecocuzza/ufo_sightings">Repository →</a>
+  </article>
+</div>
+
+<p><a href="/projects/" class="see-all-projects">See all projects</a></p>
+
+---
+---
+<div style="margin-top: 1rem;"></div>
 
