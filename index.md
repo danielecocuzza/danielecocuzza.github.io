@@ -32,19 +32,19 @@ I am particularly interested in applying Artificial Intelligence and data-driven
 
 <div class="proj-cards">
   <article class="proj-card">
-    <h3>Coin Detection & Recognition</h3>
+    <h3><b>Coin Detection & Recognition</b></h3>
     <p>Coin detection and classification from images using YOLO.</p>
     <a href="https://github.com/danielecocuzza/coin_recognition">🔗 Repository</a>
   </article>
 
   <article class="proj-card">
-    <h3>NLP Sentiment Analysis</h3>
+    <h3><b>NLP Sentiment Analysis</b></h3>
     <p>Sentiment analysis with BERT embeddings and a lexicon-based K-NN approach.</p>
     <a href="https://github.com/danielecocuzza/nlp-sentiment-analysis">🔗 Repository</a>
   </article>
 
   <article class="proj-card">
-    <h3>UFO Sightings</h3>
+    <h3><b>UFO Sightings</b></h3>
     <p>Insights on sightings: peak times, hotspots, and weather conditions.</p>
     <a href="https://github.com/danielecocuzza/ufo_sightings">🔗 Repository</a>
   </article>
