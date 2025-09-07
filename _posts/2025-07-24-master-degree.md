@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Master’s Graduation 🎓"
+title: "Master’s Degree Graduation 🎓"
 date: 2025-07-24
 ---
 

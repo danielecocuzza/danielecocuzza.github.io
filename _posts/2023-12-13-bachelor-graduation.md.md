@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Bachelor's Degree  🎓"
+title: "Bachelor's Degree Graduation 🎓"
 date: 2023-12-13
 ---
 
