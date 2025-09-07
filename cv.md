@@ -7,11 +7,16 @@ permalink: /cv/
 
 <div class="cv">
 
-<!-- header: nome + link pdf -->
 <div class="cv-header">
   <h1>Daniele Cocuzza</h1>
-  <a class="cv-download" href="/assets/cv/Daniele-Cocuzza-CV.pdf" target="_blank">Download Resume (PDF)</a>
+  <div class="cv-download">
+    <a href="/assets/cv/Daniele-Cocuzza-CV.pdf" target="_blank" class="pdf-btn">
+      <span class="pdf-icon">📄</span>
+    </a>
+    <p>Download Resume (PDF)</p>
+  </div>
 </div>
+
 
 
 
