@@ -42,6 +42,22 @@ footer.site-footer .footer-text {
 }
 
 
+/* layout header */
+.nav-wrap{ display:flex; align-items:center; justify-content:space-between; position:relative; }
+
+
+/* hamburger di default visibile su mobile */
+.nav-toggle {
+  font-size: 1.4rem;
+  background: none;
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: .4rem;
+  padding: .2rem .5rem;
+}
+
+
+
 /* da tablet in su: nav classico, niente hamburger */
 @media (min-width: 768px) {
   .nav-toggle { display: none; }
@@ -153,5 +169,8 @@ footer.site-footer .footer-text {
     color: #0f62fe !important;    /* accent all’hover */
   }
 }
+
+   
+  
 
 
