@@ -2,6 +2,7 @@
 ---
 @import "minima";   /* carica il CSS del tema */
 
+/*Footer*/
 footer.site-footer {
   position: fixed;
   bottom: 0;
@@ -19,11 +20,9 @@ footer.site-footer {
   z-index: 1000;
 }
 
-/* evita che il footer copra il contenuto */
 body {
   padding-bottom: 2.2rem;  /* uguale all’altezza del footer */
 }
-
 
 footer.site-footer a {
   margin: 0 .3rem;
@@ -50,6 +49,21 @@ footer.site-footer .footer-text {
   margin: 0;        /* elimina margini verticali del <p> */
   line-height: 1;   /* compattiamo la linea */
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* layout header */
@@ -82,6 +96,17 @@ footer.site-footer .footer-text {
     transition: color .2s ease;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
 
 /* Bio responsive */
 .bio { display:flex; align-items:flex-start; gap:1.5rem; }
@@ -136,8 +161,22 @@ footer.site-footer .footer-text {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Top Bar*/
 .site-nav .page-link:hover {
-  color: #1abc9c;                      /* verde acqua elegante all’hover */
+  color: #1abc9c;                      
 }
 
 @media (max-width: 768px) {
@@ -145,7 +184,7 @@ footer.site-footer .footer-text {
   .nav-wrap { padding-right: .5rem; }
   .nav-toggle { margin-left: auto; }
 
-  /* card bianca leggibile */
+
   .site-nav.dropdown {
     position: absolute;
     right: .5rem;
@@ -170,19 +209,44 @@ footer.site-footer .footer-text {
     padding: .55rem .9rem;
     margin: 0;
     font-weight: 600;
-    color: #1a1a1a !important;   /* ← testo scuro nel dropdown */
+    color: #1a1a1a !important;   
     text-decoration: none;
     border-radius: .45rem;
   }
   .site-nav.dropdown .page-link:hover {
     background: #f3f5f7;
-    color: #0f62fe !important;    /* accent all’hover */
+    color: #0f62fe !important;    
   }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Featured Projects as cards */
 .proj-card {
-  background: #f5f8fa;                 /* azzurro/grigio molto chiaro */
+  background: #f5f8fa;                
   border: 1px solid #dce3e9;
   border-radius: 10px;
   padding: 1rem;
@@ -193,13 +257,13 @@ footer.site-footer .footer-text {
 .proj-card:hover {
   transform: translateY(-2px);
   box-shadow: 0 8px 20px rgba(0,0,0,.08);
-  border-color: #b5c7d6;               /* bordo più marcato in hover */
+  border-color: #b5c7d6;               
 }
 
 .proj-card h3 {
   margin: 0 0 .4rem;
   font-size: 1.05rem;
-  color: #2c3e50;                      /* titolo coerente con la top bar */
+  color: #2c3e50;                    
 }
 
 .proj-card p {
@@ -210,20 +274,40 @@ footer.site-footer .footer-text {
 .proj-card a {
   font-weight: 600;
   text-decoration: none;
-  color: #0f62fe;                      /* blu acceso per i link */
+  color: #0f62fe;                     
 }
 
 .proj-card a:hover {
   text-decoration: underline;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Bottone "See all projects" */
 a.see-all-projects {
   display: inline-block;
   margin-top: 1rem;
   padding: .5rem 1rem;
-  background: #2c3e50;        /* stesso blu della top bar */
-  color: #fff !important;     /* testo bianco */
+  background: #2c3e50;        
+  color: #fff !important;     
   font-weight: 600;
   text-decoration: none;
   border-radius: .4rem;
@@ -231,11 +315,29 @@ a.see-all-projects {
 }
 
 a.see-all-projects:hover {
-  background: #6c5ce7;        /* verde acqua in hover */
+  background: #6c5ce7;        
   transform: translateY(-2px);
 }
 
-/* Timeline style for posts */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Post timeline Home */
 .post-list {
   margin: 2rem 0;
   padding-left: 0;
@@ -250,7 +352,7 @@ a.see-all-projects:hover {
   left: 10px;
   width: 3px;
   height: 100%;
-  background: #d1d5db; /* grigio linea */
+  background: #d1d5db; 
 }
 
 .post-list > li {
@@ -266,19 +368,19 @@ a.see-all-projects:hover {
   left: -28px;
   width: 14px;
   height: 14px;
-  background: #2c3e50;  /* punto blu scuro (coerente con top bar) */
+  background: #2c3e50; 
   border: 3px solid #fff;
   border-radius: 50%;
   box-shadow: 0 0 0 2px #2c3e50;
 }
 
-.post-meta {   /* la data */
+.post-meta {   
   font-size: .85rem;
   font-weight: 600;
-  color: #6b7280;  /* grigio tenue */
+  color: #6b7280;  
 }
 
-.post-link {   /* il titolo */
+.post-link {   
   display: block;
   font-size: 1.25rem;
   font-weight: 700;
@@ -289,22 +391,45 @@ a.see-all-projects:hover {
 }
 
 .post-link:hover {
-  color: #6c5ce7;   /* viola elegante */
+  color: #6c5ce7;   
 }
 
 .feed-subscribe {
   display: none !important;
 }
 
-/* --- BLOG • Timeline moderna & card flat --- */
 
-/* linea e marker minimal */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* BLOG Timeline*/
+
 .post-list.timeline {
   position: relative; margin: 2rem 0 1rem; padding-left: 0; list-style: none;
 }
 .post-list.timeline::before {
   content: ""; position: absolute; top: 0; bottom: 0; left: 12px;
-  width: 2px; background: #e5e7eb;   /* grigio chiaro */
+  width: 2px; background: #e5e7eb;   
 }
 .post-list.timeline > li {
   position: relative; margin: 0 0 1.4rem 2.5rem;
@@ -315,7 +440,7 @@ a.see-all-projects:hover {
   background: #2c3e50; box-shadow: 0 0 0 3px #fff, 0 0 0 5px #e5e7eb;
 }
 
-/* card flat, senza gradienti */
+
 .post-card {
   position: relative;
   background: #ffffff;
@@ -331,7 +456,7 @@ a.see-all-projects:hover {
   transform: translateY(-2px);
 }
 
-/* piccolo accento a SINISTRA solo in hover/focus */
+
 .post-card::before {
   content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 0;
   background: #6c5ce7; border-radius: 12px 0 0 12px;
@@ -339,13 +464,13 @@ a.see-all-projects:hover {
 }
 .post-card:hover::before { width: 4px; }
 
-/* tipografia più contemporanea */
+
 .post-card .post-link {
   display: block;
   font-size: 1.2rem;
   font-weight: 750;
   letter-spacing: .1px;
-  color: #1f2937;                  /* quasi-nero, non blu acceso */
+  color: #1f2937;                 
   text-decoration: none;
   margin: 0 0 .35rem;
 }
@@ -373,6 +498,23 @@ a.see-all-projects:hover {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Back Botton Event*/
 .back-btn-wrap { margin-top: 2rem; text-align: left; }
 .back-btn {
   display: inline-block;
@@ -390,5 +532,71 @@ a.see-all-projects:hover {
 
    
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Projects*/
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.2rem;
+  margin-top: 1.5rem;
+}
+
+.project-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 1rem 1.2rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,.05);
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0,0,0,.1);
+}
+
+.project-card h3 {
+  margin-top: 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.project-card p {
+  font-size: .95rem;
+  color: #374151;
+  margin: .5rem 0 .8rem;
+}
+
+.project-link {
+  display: inline-block;
+  font-size: .9rem;
+  font-weight: 600;
+  color: #2563eb;
+  text-decoration: none;
+  transition: color .2s ease;
+}
+
+.project-link:hover {
+  color: #6c5ce7;
+  text-decoration: underline;
+}
+
 
 
