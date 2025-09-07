@@ -1,8 +1,9 @@
 ---
 layout: page
-title: CV
+title: 
 permalink: /cv/
 ---
+<h1 class="section-title">CV</h1>
 
 <div class="cv">
 

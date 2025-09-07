@@ -688,3 +688,63 @@ a.see-all-projects:hover {
 @media (max-width:720px){
   .cv-header { flex-direction:column; align-items:flex-start; }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Titoli di sezione  */
+.section-title{
+  position: relative;
+  margin: 1.2rem 0 .9rem;
+  font-weight: 800;
+  letter-spacing: .2px;
+  color: #1f2937;                 /* quasi-nero, leggibile */
+  line-height: 1.15;
+  scroll-margin-top: 5rem;        /* evita che la top bar copra l’ancora */
+}
+
+/* dimensioni automatiche: H1 più grande, H2 leggermente più piccola */
+h1.section-title{ font-size: clamp(1.6rem, 3.3vw, 2.4rem); }
+h2.section-title{ font-size: clamp(1.3rem, 2.6vw, 1.8rem); }
+
+/* barra accent sotto il titolo */
+.section-title::after{
+  content:"";
+  position:absolute;
+  left:0; bottom:-8px;
+  width: 64px; height: 4px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #6c5ce7, #2c3e50); /* viola → blu */
+  box-shadow: 0 2px 6px rgba(108,92,231,.25);
+}
+
+/* variante per titoli dentro riquadri chiari (come la bio) */
+.bio .section-title::after{ background: linear-gradient(90deg, #6c5ce7, #1f4f7a); }
+
+/* opzionale: sottotitoli h3 */
+h3.section-title{
+  font-size: 1.1rem;
+  font-weight: 800;
+  margin: 1rem 0 .6rem;
+}

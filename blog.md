@@ -1,8 +1,9 @@
 ---
 layout: page
-title: Blog
+title: 
 permalink: /blog/
 ---
+<h1 class="section-title">Blog</h1>
 
 <ul class="post-list timeline">
   {% for post in site.posts %}

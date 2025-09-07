@@ -1,9 +1,10 @@
 ---
 layout: page
-title: Projects
+title: 
 permalink: /projects/
 ---
 
+<h1 class="section-title">Projects</h1>
 
 <div class="projects-grid">
   <div class="project-card">

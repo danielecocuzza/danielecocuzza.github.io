@@ -5,7 +5,7 @@ title: ""
 
 ---
 ---
-# Short Bio  
+<h1 class="section-title">Short Bio</h1>
 
 <div class="bio">
   <div class="bio__text">
@@ -28,7 +28,12 @@ I am particularly interested in applying Artificial Intelligence and data-driven
 
 <div style="margin-top: 1rem;"></div>
 
-## Featured Projects
+
+
+
+
+
+<h2 class="section-title">Featured Projects</h2>
 
 <div class="proj-cards">
   <article class="proj-card">
