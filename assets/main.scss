@@ -42,33 +42,25 @@ footer.site-footer .footer-text {
 }
 
 
-/* layout header */
-.nav-wrap{ display:flex; align-items:center; justify-content:space-between; position:relative; }
 
 
-/* hamburger di default visibile su mobile */
-.nav-toggle {
-  font-size: 1.4rem;
-  background: none;
-  border: 2px solid #fff;
-  color: #fff;
-  border-radius: .4rem;
-  padding: .2rem .5rem;
-}
 
-/* menu chiuso su mobile */
-.site-nav { display: none; }
-.site-nav.is-open { display: block; position: absolute; right: 1rem; top: 3.2rem;
-  background: #fff; border: 1px solid #e5e5e5; border-radius: .6rem; padding: .4rem .6rem;
-  box-shadow: 0 8px 20px rgba(0,0,0,.06);
-}
-.site-nav.is-open .page-link { display:block; padding:.4rem .6rem; }
+
+
 
 /* da tablet in su: nav classico, niente hamburger */
 @media (min-width: 768px) {
   .nav-toggle { display: none; }
   .site-nav { display: block; position: static; background: none; border: 0; box-shadow: none; }
-  .site-nav .page-link { margin-left: 1rem; display: inline-block; padding: 0; }
+  .site-nav .page-link {
+    margin-left: 1rem;
+    display: inline-block;
+    padding: 0;
+    font-weight: 500;
+    color: #f2f2f2;                 /* ← solo su desktop */
+    text-decoration: none;
+    transition: color .2s ease;
+  }
 }
 
 /* Bio responsive */
@@ -122,13 +114,7 @@ footer.site-footer .footer-text {
   color: #ffffff !important;           /* titolo bianco */
 }
 
-.site-nav .page-link {
-  margin-left: 1.5rem;
-  font-weight: 500;
-  color: #f2f2f2;                      /* link chiari */
-  text-decoration: none;
-  transition: color .2s ease;
-}
+
 
 .site-nav .page-link:hover {
   color: #1abc9c;                      /* verde acqua elegante all’hover */
@@ -136,12 +122,45 @@ footer.site-footer .footer-text {
 
 @media (max-width: 768px) {
   .site-header .wrapper { padding-right: 20px; }
-  .nav-wrap { padding-right: .5rem; }  
-  .nav-toggle { margin-left: auto; }  
-  .site-nav.dropdown { 
+  .nav-wrap { padding-right: .5rem; }
+  .nav-toggle { margin-left: auto; }
+
+  /* card bianca leggibile */
+  .site-nav.dropdown {
+    position: absolute;
     right: .5rem;
+    top: calc(100% + .5rem);
+    display: none;
+    background: #ffffff;
+    border: 1px solid #e6e6e9;
+    border-radius: .7rem;
+    box-shadow: 0 10px 24px rgba(0,0,0,.12);
+    padding: .35rem;
+    transform: translateY(-8px);
+    opacity: 0;
+    z-index: 1200;
+  }
+  .site-nav.dropdown.is-open {
+    display: block !important;
+    transform: translateY(0);
+    opacity: 1;
+  }
+  .site-nav.dropdown .page-link {
+    display: block;
+    padding: .55rem .9rem;
+    margin: 0;
+    font-weight: 600;
+    color: #1a1a1a !important;   /* ← testo scuro nel dropdown */
+    text-decoration: none;
+    border-radius: .45rem;
+  }
+  .site-nav.dropdown .page-link:hover {
+    background: #f3f5f7;
+    color: #0f62fe !important;    /* accent all’hover */
+  }
+}
+
    
-   }
   
 }
 
