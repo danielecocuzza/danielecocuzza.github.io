@@ -43,16 +43,17 @@ footer.site-footer .footer-text {
 
 
 /* layout header */
-.nav-wrap { display:flex; align-items:center; justify-content:space-between; }
+.nav-wrap{ display:flex; align-items:center; justify-content:space-between; position:relative; }
+
 
 /* hamburger di default visibile su mobile */
 .nav-toggle {
   font-size: 1.4rem;
   background: none;
-  border: 0;
-  padding: .25rem .5rem;
-  line-height: 1;
-  cursor: pointer;
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: .4rem;
+  padding: .2rem .5rem;
 }
 
 /* menu chiuso su mobile */
@@ -69,4 +70,79 @@ footer.site-footer .footer-text {
   .site-nav { display: block; position: static; background: none; border: 0; box-shadow: none; }
   .site-nav .page-link { margin-left: 1rem; display: inline-block; padding: 0; }
 }
+
+/* Bio responsive */
+.bio { display:flex; align-items:flex-start; gap:1.5rem; }
+.bio__text { flex:2; }
+.bio__photo { flex:1; text-align:center; }
+.bio__photo img { max-width:250px; width:100%; height:auto; border-radius:2%; }
+
+
+@media (max-width: 720px) {
+  .bio {
+    flex-direction: column;     /* impila */
+    align-items: center;        /* centra l'intero blocco */
+  }
+  .bio__photo {
+    order: -1;                  /* foto sopra al testo */
+    text-align: center;         /* centra l'immagine */
+    margin-bottom: 1rem;
+  }
+  .bio__photo img {
+  max-width: 250px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* ombra morbida */
+  }
+  .bio__text {
+    width: 100%;                /* testo su tutta la larghezza */
+  }
+}
+
+.bio {
+  background: #f2f2f2;       /* leggero grigio di sfondo */
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05); /* ombra leggera */
+  margin-bottom: 2rem;
+}
+
+/* Top bar */
+.site-header {
+  background: #2c3e50;                 /* blu scuro elegante */
+  border-bottom: none;
+  box-shadow: 0 2px 6px rgba(0,0,0,.2);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.site-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #ffffff !important;           /* titolo bianco */
+}
+
+.site-nav .page-link {
+  margin-left: 1.5rem;
+  font-weight: 500;
+  color: #f2f2f2;                      /* link chiari */
+  text-decoration: none;
+  transition: color .2s ease;
+}
+
+.site-nav .page-link:hover {
+  color: #1abc9c;                      /* verde acqua elegante all’hover */
+}
+
+@media (max-width: 768px) {
+  .site-header .wrapper { padding-right: 20px; }
+  .nav-wrap { padding-right: .5rem; }  
+  .nav-toggle { margin-left: auto; }  
+  .site-nav.dropdown { 
+    right: .5rem;
+   
+   }
+  
+}
+
 
