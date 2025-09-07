@@ -286,6 +286,98 @@ a.see-all-projects:hover {
   display: none !important;
 }
 
+/* --- BLOG • Timeline moderna & card flat --- */
+
+/* linea e marker minimal */
+.post-list.timeline {
+  position: relative; margin: 2rem 0 1rem; padding-left: 0; list-style: none;
+}
+.post-list.timeline::before {
+  content: ""; position: absolute; top: 0; bottom: 0; left: 12px;
+  width: 2px; background: #e5e7eb;   /* grigio chiaro */
+}
+.post-list.timeline > li {
+  position: relative; margin: 0 0 1.4rem 2.5rem;
+}
+.post-list.timeline > li::before {
+  content: ""; position: absolute; top: 1rem; left: -26px;
+  width: 10px; height: 10px; border-radius: 50%;
+  background: #2c3e50; box-shadow: 0 0 0 3px #fff, 0 0 0 5px #e5e7eb;
+}
+
+/* card flat, senza gradienti */
+.post-card {
+  position: relative;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;       /* bordo sottile */
+  border-radius: 12px;             /* rotondità moderna */
+  padding: 1rem 1.2rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,.04);  /* ombra soft */
+  transition: border-color .15s ease, box-shadow .15s ease, transform .15s ease;
+}
+.post-card:hover {
+  border-color: #d1d5db;
+  box-shadow: 0 8px 24px rgba(0,0,0,.08);
+  transform: translateY(-2px);
+}
+
+/* piccolo accento a SINISTRA solo in hover/focus */
+.post-card::before {
+  content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 0;
+  background: #6c5ce7; border-radius: 12px 0 0 12px;
+  transition: width .15s ease;
+}
+.post-card:hover::before { width: 4px; }
+
+/* tipografia più contemporanea */
+.post-card .post-link {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 750;
+  letter-spacing: .1px;
+  color: #1f2937;                  /* quasi-nero, non blu acceso */
+  text-decoration: none;
+  margin: 0 0 .35rem;
+}
+.post-card .post-link:hover { color: #2563eb; text-decoration: underline; }
+
+.post-card .post-meta {
+  display: inline-block;
+  font-size: .9rem;
+  font-weight: 600;
+  color: #6b7280;
+  background: #f3f4f6;             /* pill sobria */
+  border: 1px solid #e5e7eb;
+  padding: .18rem .55rem;
+  border-radius: 999px;
+}
+
+/* responsive tweaks */
+@media (max-width: 720px){
+  .post-list.timeline::before { left: 10px; }
+  .post-list.timeline > li { margin-left: 2.2rem; }
+  .post-list.timeline > li::before { left: -24px; }
+}
+
+
+
+
+
+.back-btn-wrap { margin-top: 2rem; text-align: left; }
+.back-btn {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  background: #2c3e50;
+  color: #fff !important;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background .2s ease, transform .15s ease;
+}
+.back-btn:hover { background: #6c5ce7; transform: translateY(-2px); }
+
+
+
    
   
 
