@@ -2,33 +2,80 @@
 layout: default
 ---
 
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="post">
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-    <p class="post-meta">
-      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {{ page.date | date: date_format }}
-      </time>
-      {%- if page.author -%}
-        • <span itemprop="author" class="p-author h-card">{{ page.author }}</span>
-      {%- endif -%}
-      {%- if page.meta -%} • {{ page.meta }}{%- endif -%}
-    </p>
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-meta">{{ page.date | date: "%b %d, %Y" }}</p>
   </header>
 
-  <div class="post-content e-content" itemprop="articleBody">
+  <div class="post-content">
     {{ content }}
   </div>
 
-  <!-- Bottone back -->
-  <div class="back-btn-wrap">
-    <a href="/blog/" class="back-btn">← Back to Blog</a>
+  {% if page.media %}
+    <div class="carousel">
+    <div class="carousel-track">
+    {% for item in page.media %}
+      <div class="carousel-item">
+      {% if item.type == "image" %}
+          <img src="{{ item.src | relative_url }}" alt="Image {{ forloop.index }}">
+      {% elsif item.type == "video" %}
+  <video class="carousel-video" controls preload="metadata">
+    <source src="{{ item.src | relative_url }}" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+{% elsif item.type == "youtube" %}
+  <iframe width="560" height="315" src="{{ item.src }}" 
+          frameborder="0" allowfullscreen></iframe>
+{% endif %}
+
+      </div>
+    {% endfor %}
   </div>
+  <button class="carousel-control prev">‹</button>
+  <button class="carousel-control next">›</button>
+</div>
+{% endif %}
 
-  {%- if site.disqus.shortname -%}
-    {%- include disqus_comments.html -%}
-  {%- endif -%}
 
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+  <div class="back-btn-wrap">
+    <a href="{{ '/blog/' | relative_url }}" class="back-btn">← Back to Blog</a>
+  </div>
 </article>
+
+<script>
+document.addEventListener("DOMContentLoaded", function(){
+  const carousels = document.querySelectorAll(".carousel");
+  carousels.forEach(carousel => {
+    const track = carousel.querySelector(".carousel-track");
+    const items = carousel.querySelectorAll(".carousel-item");
+    const prev = carousel.querySelector(".carousel-control.prev");
+    const next = carousel.querySelector(".carousel-control.next");
+    let index = 0;
+
+    function update(){
+      // ferma tutti i video quando cambio slide
+      items.forEach(item => {
+        const video = item.querySelector("video");
+        if(video){ video.pause(); video.currentTime = 0; }
+      });
+
+      // sposta il carosello
+      track.style.transform = `translateX(-${index * 100}%)`;
+    }
+
+    prev.addEventListener("click", () => {
+      index = (index === 0) ? items.length - 1 : index - 1;
+      update();
+    });
+
+    next.addEventListener("click", () => {
+      index = (index + 1) % items.length;
+      update();
+    });
+  });
+});
+</script>
+
+
+

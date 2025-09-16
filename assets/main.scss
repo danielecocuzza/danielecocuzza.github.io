@@ -803,3 +803,94 @@ h3.section-title{
   transform: translateY(-2px);
   box-shadow: 0 6px 16px rgba(230,57,70,.45);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Carosello*/
+/* ===== Carosello immagini nei post ===== */
+.carousel {
+  position: relative;
+  max-width: 800px;
+  margin: 2rem auto;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,.1);
+}
+
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.4s ease;
+}
+
+.carousel-item {
+  min-width: 100%;
+  flex-shrink: 0;
+}
+
+.carousel-item img {
+  max-width: 100%;       
+  max-height: 450px;    
+  width: auto;           
+  height: auto; 
+  display: block;
+  margin: 0 auto;        
+  object-fit: contain;   
+  border-radius: 10px;
+}
+
+
+.carousel-control {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.5);
+  color: #fff;
+  border: none;
+  padding: .6rem 1rem;
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  transition: background .2s ease;
+}
+.carousel-control:hover { background: rgba(0,0,0,0.7); }
+.carousel-control.prev { left: 10px; }
+.carousel-control.next { right: 10px; }
+
+/* Mobile */
+@media (max-width: 600px) {
+  .carousel-control { font-size: 1.2rem; padding: .4rem .7rem; }
+}
+
+
+.carousel-item video {
+  max-width: 100%;
+  max-height: 400px;   /* ridimensiona */
+  margin: auto;
+  border-radius: 8px;
+  display: block;
+  object-fit: contain; /* mantiene proporzioni senza tagliare */
+}
+
+/* Bottoni avanti/indietro sotto al video */
+.carousel-control {
+  z-index: 4;
+}
+
+
+

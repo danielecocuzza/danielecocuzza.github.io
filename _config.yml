@@ -1,3 +1,5 @@
 title: "Daniele Cocuzza"
 description: ""
 theme: minima
+include:
+  - assets/video
