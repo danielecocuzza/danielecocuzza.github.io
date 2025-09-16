@@ -17,6 +17,18 @@ media:
     src: /assets/img/posts/bachelor/5.jpg
   - type: image
     src: /assets/img/posts/bachelor/6.jpg
+  - type: image
+    src: /assets/img/posts/bachelor/7.jpg
+  - type: image
+    src: /assets/img/posts/bachelor/8.jpg
+  - type: image
+    src: /assets/img/posts/bachelor/8.jpg
+  - type: image
+    src: /assets/img/posts/bachelor/10.jpg
+  - type: image
+    src: /assets/img/posts/bachelor/11.jpg
+  - type: image
+    src: /assets/img/posts/bachelor/12.jpg
 
 
 ---
