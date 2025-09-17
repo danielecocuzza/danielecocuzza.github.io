@@ -2,6 +2,23 @@
 layout: post
 title: "Master’s Degree Graduation 🎓"
 date: 2025-07-24
+media:
+  - type: image
+    src: /assets/img/posts/master/1.jpg
+  - type: video
+    src: /assets/video/posts/master/1.mp4
+  - type: image
+    src: /assets/img/posts/master/2.jpg
+  - type: image
+    src: /assets/img/posts/master/3.jpg
+  - type: image
+    src: /assets/img/posts/master/4.jpg
+  - type: image
+    src: /assets/img/posts/master/5.jpg
+  - type: image
+    src: /assets/img/posts/master/6.jpg
+  - type: image
+    src: /assets/img/posts/master/7.jpg
 ---
 
 On **July 24th, 2025**, I obtained my **Master’s Degree in Computer Science – Data Science track** at the University of Catania with **110/110 cum laude**.  
