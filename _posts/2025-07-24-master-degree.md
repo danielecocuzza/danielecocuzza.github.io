@@ -19,6 +19,8 @@ media:
     src: /assets/img/posts/master/6.jpg
   - type: image
     src: /assets/img/posts/master/7.jpg
+  - type: image
+    src: /assets/img/posts/master/8.jpg
 ---
 
 On **July 24th, 2025**, I obtained my **Master’s Degree in Computer Science – Data Science track** at the University of Catania with **110/110 cum laude**.  
