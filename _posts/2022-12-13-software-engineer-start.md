@@ -4,7 +4,7 @@ title: "Started as Software Engineer 💼"
 date: 2022-12-13
 ---
 
-On **December 13th, 2022**, I started working as a **Software Engineer** at AITHO.  
+I started working as a **Software Engineer** at AITHO.  
 
 My main role was focused on **backend development**, where I worked with **Java** and the **Spring Boot** framework, building and maintaining **REST APIs** and integrating with **MySQL** databases.  
 I also used **JUnit** for testing, ensuring the reliability and quality of the applications.    
