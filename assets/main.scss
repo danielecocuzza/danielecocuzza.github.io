@@ -391,7 +391,7 @@ a.see-all-projects:hover {
 }
 
 .post-link:hover {
-  color: #6c5ce7;   
+  color: #159c82;   
 }
 
 .feed-subscribe {
@@ -459,7 +459,7 @@ a.see-all-projects:hover {
 
 .post-card::before {
   content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 0;
-  background: #6c5ce7; border-radius: 12px 0 0 12px;
+  background: #159c82; border-radius: 12px 0 0 12px;
   transition: width .15s ease;
 }
 .post-card:hover::before { width: 4px; }
@@ -567,7 +567,7 @@ a.see-all-projects:hover {
   position: absolute;
   top: 0; left: 0; bottom: 0;
   width: 4px;
-  background: #6c5ce7;   /* viola elegante */
+  background: #159c82;   /* viola elegante */
   border-radius: 14px 0 0 14px;
   opacity: .7;
   transition: opacity .2s ease, width .2s ease;
@@ -591,7 +591,7 @@ a.see-all-projects:hover {
   color: #1f2937;
   transition: color .2s ease;
 }
-.project-card:hover h3 { color: #6c5ce7; }
+.project-card:hover h3 { color: #2563eb; }
 
 /* Descrizione */
 .project-card p {
@@ -612,7 +612,7 @@ a.see-all-projects:hover {
   text-decoration: none;
   transition: color .2s ease;
 }
-.project-link:hover { color: #6c5ce7; }
+.project-link:hover { color: #2563eb; }
 
 /* Icona GitHub stile classico */
 .project-link::before {
