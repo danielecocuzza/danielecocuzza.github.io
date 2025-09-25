@@ -1,6 +1,7 @@
 <header class="site-header">
   <div class="wrapper nav-wrap">
     <a class="site-title" rel="author" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    
 
     <!-- Bottone hamburger (solo mobile) -->
     <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="site-menu">
@@ -12,6 +13,7 @@
       <a class="page-link" href="{{ '/projects/' | relative_url }}">Projects</a>
       <a class="page-link" href="{{ '/blog/'     | relative_url }}">Blog</a>
       <a class="page-link" href="{{ '/cv/'       | relative_url }}">CV</a>
+      <button id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
     </nav>
   </div>
 
@@ -32,5 +34,36 @@
         }
       });
     })();
+
+    document.addEventListener("DOMContentLoaded", () => {
+  const toggle = document.getElementById("theme-toggle");
+  const current = localStorage.getItem("theme");
+
+  if (current === "dark") document.documentElement.classList.add("dark");
+  if (current === "light") document.documentElement.classList.add("light");
+
+  function updateIcon() {
+    if (document.documentElement.classList.contains("dark")) {
+      toggle.textContent = "☀️";
+    } else {
+      toggle.textContent = "🌙";
+    }
+  }
+
+  updateIcon();
+
+  toggle.addEventListener("click", () => {
+    if (document.documentElement.classList.contains("dark")) {
+      document.documentElement.classList.remove("dark");
+      document.documentElement.classList.add("light");
+      localStorage.setItem("theme", "light");
+    } else {
+      document.documentElement.classList.remove("light");
+      document.documentElement.classList.add("dark");
+      localStorage.setItem("theme", "dark");
+    }
+    updateIcon();
+  });
+});
   </script>
 </header>

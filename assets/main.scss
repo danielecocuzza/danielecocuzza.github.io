@@ -389,14 +389,16 @@ a.see-all-projects:hover {
   display: block;
   font-size: 1.25rem;
   font-weight: 700;
-  color: #0f62fe;
+  color: #000000 !important;
   margin-top: .2rem;
   text-decoration: none;
   transition: color .2s ease;
 }
 
 .post-link:hover {
-  color: #0f62fe;   
+  color: #0f62fe !important;   
+  text-decoration: none;
+  transform: scale(1.005);
 }
 
 .feed-subscribe {
@@ -479,7 +481,7 @@ a.see-all-projects:hover {
   text-decoration: none;
   margin: 0 0 .35rem;
 }
-.post-card .post-link:hover { color: #2563eb; text-decoration: underline; }
+.post-card .post-link:hover { color: #2563eb; text-decoration: none; }
 
 .post-card .post-meta {
   display: inline-block;
@@ -531,7 +533,7 @@ a.see-all-projects:hover {
   text-decoration: none;
   transition: background .2s ease, transform .15s ease;
 }
-.back-btn:hover { background: #159c82; transform: translateY(-2px); }
+.back-btn:hover { background: #159c82; transform: translateY(-2px); text-decoration: none; }
 
 
 
@@ -670,7 +672,9 @@ a.see-all-projects:hover {
 .cv-download {
   font-weight:700; text-decoration:none; color:#2563eb;
 }
-.cv-download:hover { text-decoration:underline; color:#6c5ce7; }
+.cv-download:hover { text-decoration:none; color:#6c5ce7; }
+
+html.dark .download-par{color:white;}
 
 .cv section { margin: 1.4rem 0 0.8rem; }
 .cv h2 { margin-bottom:.4rem; }
@@ -694,6 +698,7 @@ a.see-all-projects:hover {
   .cv-header { flex-direction:column; align-items:flex-start; }
 }
 
+html.dark .cv-meta{color: #b5c7d6;}
 
 
 
@@ -898,4 +903,173 @@ h3.section-title{
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Dark Theme Button*/
+#theme-toggle {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #fff;
+  margin-left: 1rem;
+  transition: transform .2s;
+}
+#theme-toggle:hover {
+  transform: scale(1.2);
+}
+@media (prefers-color-scheme: dark) {
+  #theme-toggle { color: #f1c40f; } 
+}
+/* ===== DARK MODE STILE ELEGANTE ===== */
+html.dark body {
+  background: #2c3e50;     /* base: blu notte */
+  color: #dfe6e9;          /* testo grigio chiaro */
+}
+
+/* Navbar */
+html.dark .site-header {
+  background: #1b2836;     /* più scura della base */
+  box-shadow: 0 2px 6px rgba(0,0,0,.6);
+}
+html.dark .site-title { color: #fff !important; }
+html.dark .site-nav .page-link { color: #f39c12; }
+html.dark .site-nav .page-link:hover { color: #e0e6eb; }
+
+/* Footer */
+html.dark footer.site-footer {
+  background: #1b2836;     /* stesso tono della navbar */
+  border-top: 1px solid #34495e;
+  color: #dfe6e9;
+}
+html.dark footer.site-footer a {
+  color: #e67e22;          /* link arancio */
+}
+html.dark footer.site-footer a:hover {
+  color: #f39c12;          
+}
+
+/* Sezioni / cards */
+html.dark .bio,
+html.dark .project-card,
+html.dark .post-card,
+html.dark .cv-item__main {
+  background: #243447;     
+  border: 1px solid #34495e;
+  box-shadow: 0 4px 12px rgba(0,0,0,.4);
+}
+html.dark .project-card:hover h3 { color: #f39c12; }
+
+/* Timeline */
+html.dark .post-list::before,
+html.dark .post-list.timeline::before { background: #3c4f63; }
+html.dark .post-list > li::before,
+html.dark .post-list.timeline > li::before {
+  background: #f39c12; 
+  box-shadow: 0 0 0 3px #2c3e50, 0 0 0 5px #3c4f63;
+}
+
+/* Bottoni */
+html.dark .back-btn,
+html.dark a.see-all-projects {
+  background: #e67e22;
+  color: #fff !important;
+}
+html.dark .back-btn:hover,
+html.dark a.see-all-projects:hover {
+  background: #f39c12;
+  transform: translateY(-2px);
+}
+html.dark .project-card,
+html.dark .post-card,
+html.dark .bio,
+html.dark .cv-item__main {
+  color: #ecf0f1;   /* testo chiaro */
+}
+
+html.dark .project-card h3,
+html.dark .post-card .post-link,
+html.dark .bio h2,
+html.dark .cv-item__main h3 {
+  color: #ffffff !important;   /* titoli in bianco */
+}
+/* TITOLI TIMELINE in dark: home + blog */
+html.dark .post-list .post-link,
+html.dark .post-list .post-link:visited,
+html.dark .post-card .post-link,
+html.dark .post-card .post-link:visited {
+  color: #ecf0f1 !important;  /* bianco caldo */
+}
+
+html.dark .post-list .post-link:hover,
+html.dark .post-card .post-link:hover {
+  color: #f39c12 !important; 
+  text-decoration: none;
+}
+
+/* Date/metadata più chiare */
+html.dark .post-meta {
+  color: #919191 !important;
+}
+
+html.dark .project-card p,
+html.dark .post-card p,
+html.dark .bio p,
+html.dark .cv-item__main p {
+  color: #dfe6e9;   /* paragrafi grigio chiaro */
+}
+
+/* Featured Projects - dark mode */
+html.dark .proj-card {
+  background: #243447;     /* stesso blu-grigio delle altre card */
+  border: 1px solid #34495e;
+  box-shadow: 0 4px 12px rgba(0,0,0,.4);
+  color: #ecf0f1;          /* testo chiaro */
+}
+
+html.dark .proj-card h3 {
+  color: #ffffff;          /* titoli bianchi */
+}
+
+html.dark .proj-card p {
+  color: #dfe6e9;          /* descrizione grigio chiaro */
+}
+
+html.dark .proj-card a {
+  color: #f39c12;          /* link arancio/giallo */
+  font-weight: 600;
+  text-decoration: none;
+}
+
+html.dark .proj-card a:hover {
+  color: #e67e22;          /* hover arancio più scuro */
+  text-decoration: underline;
+}
+
+html.dark .section-title{
+  color: #f39c12;
+}
+
+
+
+html.dark .site-title:hover {
+  color: #f39c12 !important;  
+  text-decoration: none !important;                    
+}
 

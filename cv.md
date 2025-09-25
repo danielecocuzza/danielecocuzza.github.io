@@ -13,7 +13,7 @@ permalink: /cv/
     <a href="/assets/cv/Cocuzza-Daniele-Resume.pdf" target="_blank" class="pdf-btn">
       <span class="pdf-icon">📄</span>
     </a>
-    <p>Download Resume (PDF)</p>
+    <p class="download-par">Download Resume (PDF)</p>
   </div>
 </div>
 

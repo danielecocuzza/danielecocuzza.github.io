@@ -1,19 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="iso-8859-1"?>
 <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-<svg width="800px" height="800px" viewBox="0 -2.5 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    
-    <title>email [#1573]</title>
-    <desc>Created with Sketch.</desc>
-    <defs>
-
-</defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Dribbble-Light-Preview" transform="translate(-300.000000, -922.000000)" fill="#000000">
-            <g id="icons" transform="translate(56.000000, 160.000000)">
-                <path d="M262,764.291 L254,771.318 L246,764.281 L246,764 L262,764 L262,764.291 Z M246,775 L246,766.945 L254,773.98 L262,766.953 L262,775 L246,775 Z M244,777 L264,777 L264,762 L244,762 L244,777 Z" id="email-[#1573]">
-
-</path>
-            </g>
-        </g>
-    </g>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 viewBox="0 0 491.52 491.52" xml:space="preserve">
+<rect y="85.914" style="fill:#F6C358;" width="491.52" height="319.693"/>
+<polygon style="fill:#FCD462;" points="245.76,217.258 491.52,405.604 0,405.604 "/>
+<polygon style="fill:#DC8744;" points="245.76,291.673 0,85.916 491.52,85.916 "/>
+<polygon style="fill:#FCD462;" points="245.76,274.261 0,85.916 491.52,85.916 "/>
 </svg>
