@@ -939,13 +939,13 @@ h3.section-title{
 }
 /* ===== DARK MODE STILE ELEGANTE ===== */
 html.dark body {
-  background: #2c3e50;     /* base: blu notte */
-  color: #dfe6e9;          /* testo grigio chiaro */
+  background: #2c3e50;     
+  color: #dfe6e9;          
 }
 
 /* Navbar */
 html.dark .site-header {
-  background: #1b2836;     /* più scura della base */
+  background: #1b2836;     
   box-shadow: 0 2px 6px rgba(0,0,0,.6);
 }
 html.dark .site-title { color: #fff !important; }
@@ -954,12 +954,12 @@ html.dark .site-nav .page-link:hover { color: #e0e6eb; }
 
 /* Footer */
 html.dark footer.site-footer {
-  background: #1b2836;     /* stesso tono della navbar */
+  background: #1b2836;    
   border-top: 1px solid #34495e;
   color: #dfe6e9;
 }
 html.dark footer.site-footer a {
-  color: #e67e22;          /* link arancio */
+  color: #e67e22;          
 }
 html.dark footer.site-footer a:hover {
   color: #f39c12;          
@@ -1000,21 +1000,21 @@ html.dark .project-card,
 html.dark .post-card,
 html.dark .bio,
 html.dark .cv-item__main {
-  color: #ecf0f1;   /* testo chiaro */
+  color: #ecf0f1;  
 }
 
 html.dark .project-card h3,
 html.dark .post-card .post-link,
 html.dark .bio h2,
 html.dark .cv-item__main h3 {
-  color: #ffffff !important;   /* titoli in bianco */
+  color: #ffffff !important;  
 }
 /* TITOLI TIMELINE in dark: home + blog */
 html.dark .post-list .post-link,
 html.dark .post-list .post-link:visited,
 html.dark .post-card .post-link,
 html.dark .post-card .post-link:visited {
-  color: #ecf0f1 !important;  /* bianco caldo */
+  color: #ecf0f1 !important;  
 }
 
 html.dark .post-list .post-link:hover,
@@ -1032,33 +1032,33 @@ html.dark .project-card p,
 html.dark .post-card p,
 html.dark .bio p,
 html.dark .cv-item__main p {
-  color: #dfe6e9;   /* paragrafi grigio chiaro */
+  color: #dfe6e9;   
 }
 
 /* Featured Projects - dark mode */
 html.dark .proj-card {
-  background: #243447;     /* stesso blu-grigio delle altre card */
+  background: #243447;     
   border: 1px solid #34495e;
   box-shadow: 0 4px 12px rgba(0,0,0,.4);
-  color: #ecf0f1;          /* testo chiaro */
+  color: #ecf0f1;          
 }
 
 html.dark .proj-card h3 {
-  color: #ffffff;          /* titoli bianchi */
+  color: #ffffff;          
 }
 
 html.dark .proj-card p {
-  color: #dfe6e9;          /* descrizione grigio chiaro */
+  color: #dfe6e9;          
 }
 
 html.dark .proj-card a {
-  color: #f39c12;          /* link arancio/giallo */
+  color: #f39c12;         
   font-weight: 600;
   text-decoration: none;
 }
 
 html.dark .proj-card a:hover {
-  color: #e67e22;          /* hover arancio più scuro */
+  color: #e67e22;          
   text-decoration: underline;
 }
 
