@@ -24,7 +24,7 @@
         var open = menu.classList.toggle('is-open');
         btn.setAttribute('aria-expanded', open ? 'true' : 'false');
       });
-      // chiudi se clicchi fuori
+      
       document.addEventListener('click', function(e){
         if (!menu.contains(e.target) && !btn.contains(e.target)) {
           menu.classList.remove('is-open');

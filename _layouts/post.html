@@ -54,13 +54,13 @@ document.addEventListener("DOMContentLoaded", function(){
     let index = 0;
 
     function update(){
-      // ferma tutti i video quando cambio slide
+      
       items.forEach(item => {
         const video = item.querySelector("video");
         if(video){ video.pause(); video.currentTime = 0; }
       });
 
-      // sposta il carosello
+      
       track.style.transform = `translateX(-${index * 100}%)`;
     }
 

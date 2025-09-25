@@ -1,6 +1,6 @@
 ---
 ---
-@import "minima";   /* carica il CSS del tema */
+@import "minima";   
 
 /*Footer*/
 footer.site-footer {
@@ -8,20 +8,20 @@ footer.site-footer {
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 2.2rem;          /* altezza costante */
+  height: 2.2rem;          
   display: flex;
-  align-items: center;     /* centra verticalmente */
-  justify-content: center; /* centra orizzontalmente */
-  padding: 0.4rem 0;       /* spaziatura verticale */
-  font-size: 0.85rem;      /* dimensione testo */
+  align-items: center;     
+  justify-content: center; 
+  padding: 0.4rem 0;       
+  font-size: 0.85rem;      
   text-align: center;
   border-top: 1px solid #eee;
-  background: #fff;        /* colore di sfondo */
+  background: #fff;        
   z-index: 1000;
 }
 
 body {
-  padding-bottom: 2.2rem;  /* uguale all’altezza del footer */
+  padding-bottom: 2.2rem;  
 }
 
 footer.site-footer a {
@@ -37,17 +37,17 @@ footer.site-footer img.icon {
   height: 20px;
   margin: 0 .4rem;
   vertical-align: middle;
-  filter: grayscale(100%);   /* icone grigie */
+  filter: grayscale(100%);   
   transition: filter .2s;
 }
 
 footer.site-footer a:hover img.icon {
-  filter: none;              /* tornano colorate al passaggio */
+  filter: none;              
 }
 
 footer.site-footer .footer-text {
-  margin: 0;        /* elimina margini verticali del <p> */
-  line-height: 1;   /* compattiamo la linea */
+  margin: 0;       
+  line-height: 1;   
 }
 
 
@@ -66,11 +66,11 @@ footer.site-footer .footer-text {
 
 
 
-/* layout header */
+
 .nav-wrap{ display:flex; align-items:center; justify-content:space-between; position:relative; }
 
 
-/* hamburger di default visibile su mobile */
+
 .nav-toggle {
   font-size: 1.4rem;
   background: none;
@@ -82,7 +82,7 @@ footer.site-footer .footer-text {
 
 
 
-/* da tablet in su: nav classico, niente hamburger */
+
 @media (min-width: 768px) {
   .nav-toggle { display: none; }
   .site-nav { display: block; position: static; background: none; border: 0; box-shadow: none; }
@@ -91,7 +91,7 @@ footer.site-footer .footer-text {
     display: inline-block;
     padding: 0;
     font-weight: 500;
-    color: #f2f2f2;                 /* ← solo su desktop */
+    color: #f2f2f2;                 
     text-decoration: none;
     transition: color .2s ease;
   }
@@ -117,35 +117,35 @@ footer.site-footer .footer-text {
 
 @media (max-width: 720px) {
   .bio {
-    flex-direction: column;     /* impila */
-    align-items: center;        /* centra l'intero blocco */
+    flex-direction: column;     
+    align-items: center;        
   }
   .bio__photo {
-    order: -1;                  /* foto sopra al testo */
-    text-align: center;         /* centra l'immagine */
+    order: -1;                  
+    text-align: center;         
     margin-bottom: 1rem;
   }
   .bio__photo img {
   max-width: 250px;
   border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* ombra morbida */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
   }
   .bio__text {
-    width: 100%;                /* testo su tutta la larghezza */
+    width: 100%;                
   }
 }
 
 .bio {
-  background: #f2f2f2;       /* leggero grigio di sfondo */
+  background: #f2f2f2;       
   padding: 1.5rem;
   border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.05); /* ombra leggera */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
   margin-bottom: 2rem;
 }
 
 /* Top bar */
 .site-header {
-  background: #2c3e50;                 /* blu scuro elegante */
+  background: #2c3e50;                 
   border-bottom: none;
   box-shadow: 0 2px 6px rgba(0,0,0,.2);
   position: sticky;
@@ -156,7 +156,7 @@ footer.site-footer .footer-text {
 .site-title {
   font-size: 1.4rem;
   font-weight: 600;
-  color: #ffffff !important;           /* titolo bianco */
+  color: #ffffff !important;           
 }
 
 .site-title:hover {
@@ -449,10 +449,10 @@ a.see-all-projects:hover {
 .post-card {
   position: relative;
   background: #ffffff;
-  border: 1px solid #e5e7eb;       /* bordo sottile */
-  border-radius: 12px;             /* rotondità moderna */
+  border: 1px solid #e5e7eb;      
+  border-radius: 12px;             
   padding: 1rem 1.2rem;
-  box-shadow: 0 4px 12px rgba(0,0,0,.04);  /* ombra soft */
+  box-shadow: 0 4px 12px rgba(0,0,0,.04);  
   transition: border-color .15s ease, box-shadow .15s ease, transform .15s ease;
 }
 .post-card:hover {
@@ -486,7 +486,7 @@ a.see-all-projects:hover {
   font-size: .9rem;
   font-weight: 600;
   color: #6b7280;
-  background: #f3f4f6;             /* pill sobria */
+  background: #f3f4f6;             
   border: 1px solid #e5e7eb;
   padding: .18rem .55rem;
   border-radius: 999px;
@@ -566,13 +566,13 @@ a.see-all-projects:hover {
   overflow: hidden;
 }
 
-/* Barra colorata a sinistra */
+
 .project-card::before {
   content: "";
   position: absolute;
   top: 0; left: 0; bottom: 0;
   width: 4px;
-  background: #159c82;   /* viola elegante */
+  background: #159c82;  
   border-radius: 14px 0 0 14px;
   opacity: .7;
   transition: opacity .2s ease, width .2s ease;
@@ -588,7 +588,7 @@ a.see-all-projects:hover {
   width: 6px;
 }
 
-/* Titolo interattivo */
+
 .project-card h3 {
   margin-top: 0;
   font-size: 1.25rem;
@@ -619,7 +619,7 @@ a.see-all-projects:hover {
 }
 .project-link:hover { color: #2563eb; }
 
-/* Icona GitHub stile classico */
+
 .project-link::before {
   content: "";
   display: inline-block;
@@ -724,16 +724,16 @@ a.see-all-projects:hover {
   margin: 1.2rem 0 .9rem;
   font-weight: 800;
   letter-spacing: .2px;
-  color: #1f2937;                 /* quasi-nero, leggibile */
+  color: #1f2937;                 
   line-height: 1.15;
-  scroll-margin-top: 5rem;        /* evita che la top bar copra l’ancora */
+  scroll-margin-top: 5rem;        
 }
 
-/* dimensioni automatiche: H1 più grande, H2 leggermente più piccola */
+
 h1.section-title{ font-size: clamp(1.6rem, 3.3vw, 2.4rem); }
 h2.section-title{ font-size: clamp(1.3rem, 2.6vw, 1.8rem); }
 
-/* barra accent sotto il titolo */
+
 .section-title::after{
   content:"";
   position:absolute;
@@ -744,10 +744,10 @@ h2.section-title{ font-size: clamp(1.3rem, 2.6vw, 1.8rem); }
   box-shadow: 0 2px 6px rgba(108,92,231,.25);
 }
 
-/* variante per titoli dentro riquadri chiari (come la bio) */
+
 .bio .section-title::after{ background: linear-gradient(90deg, #6c5ce7, #1f4f7a); }
 
-/* opzionale: sottotitoli h3 */
+
 h3.section-title{
   font-size: 1.1rem;
   font-weight: 800;
@@ -795,7 +795,7 @@ h3.section-title{
   align-items: center;
   justify-content: center;
   width: 56px; height: 56px;
-  background: #e63946;              /* rosso tipico PDF */
+  background: #e63946;              
   color: #fff;
   border-radius: 50%;
   font-size: 1.6rem;
@@ -885,11 +885,11 @@ h3.section-title{
 
 .carousel-item video {
   max-width: 100%;
-  max-height: 400px;   /* ridimensiona */
+  max-height: 400px;   
   margin: auto;
   border-radius: 8px;
   display: block;
-  object-fit: contain; /* mantiene proporzioni senza tagliare */
+  object-fit: contain; 
 }
 
 /* Bottoni avanti/indietro sotto al video */
