@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Started as DevOps Engineer ⚙️"
+title: "Started as DevOps Engineer"
 date: 2024-09-09
+category: work
 ---
 
 I started working as a **DevOps Engineer** at **REETURN**.  

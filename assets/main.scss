@@ -1073,3 +1073,116 @@ html.dark .site-title:hover {
   text-decoration: none !important;                    
 }
 
+
+
+/* Categorie nel Blog */
+.category-block {
+  margin-bottom: 3rem;
+  background: rgba(0,0,0,0.05);
+  border-radius: 12px;
+  padding: 1.5rem 2rem 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: background .3s ease, box-shadow .3s ease;
+}
+
+.category-block:hover {
+  background: rgba(255,255,255,0.05);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+}
+
+/* Titolo della categoria */
+.category-title {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #159c82;
+  margin-bottom: 0.8rem;
+  letter-spacing: 0.5px;
+  transition: transform 0.2s ease, color 0.3s ease;
+}
+
+html.dark .category-title{
+  color: #f39c12
+}
+
+.category-title:hover {
+  transform: translateX(4px);
+  color: #127a65;
+}
+
+html.dark .category-title:hover{
+  color: #f1c40f;
+}
+
+/* Piccolo effetto di "barra" a sinistra */
+.category-title::before {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 28px;
+  background: linear-gradient(180deg, #127a65, #159c82);
+  border-radius: 10px;
+}
+
+html.dark .category-title::before{
+  background: linear-gradient(180deg, #f39c12, #f1c40f);
+}
+
+/* Timeline interna per categorie */
+.category-block .timeline {
+  position: relative;
+  margin: 0;
+  padding-left: 2.5rem;
+}
+
+/* Linea verticale */
+.category-block .timeline::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 1.2rem; 
+  width: 2px;
+  height: 100%;
+  background: #bfc2c6;
+  z-index: 0;
+}
+
+/* Singolo evento */
+.category-block .timeline li {
+  list-style: none;
+  position: relative;
+  margin: 1.6rem 0;
+  padding-left: 1rem;
+}
+
+/* Pallini */
+.category-block .timeline li::before {
+  content: "";
+  position: absolute;
+  top: 1rem;
+  left: -1rem;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #127a65; 
+  border: 3px solid #fff;
+  box-shadow: 0 0 0 2px #bfc2c6;
+  z-index: 2;
+}
+
+html.dark .category-block .timeline li::before{
+  background: #f39c12; 
+}
+
+/* ---- DARK MODE ---- */
+html.dark .category-block .timeline::before {
+  background: rgba(255,255,255,0.25);
+}
+
+html.dark .category-block .timeline li::before {
+  background: #f1c40f;
+  border-color: #2c3e50;
+  box-shadow: 0 0 0 2px rgba(255,255,255,0.25);
+}

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Bachelor's Degree Graduation 🎓"
+title: "Bachelor's Degree Graduation"
 date: 2023-12-13
 media:
   - type: image
@@ -30,7 +30,7 @@ media:
   - type: image
     src: /assets/img/posts/bachelor/12.jpg
 
-
+category: education
 ---
 
 I graduated in **Computer Science (BSc)** at the University of Catania with **110/110 cum laude**.  

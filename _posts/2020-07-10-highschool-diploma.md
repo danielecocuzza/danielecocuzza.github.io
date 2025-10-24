@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "High School Diploma in Computer Science 🎓"
+title: "High School Diploma in Computer Science"
 date: 2020-07-10
+category: education
 ---
 
 I graduated from **IT Archimede** with a **High School Diploma in Computer Science**, scoring **100/100 cum laude**.  

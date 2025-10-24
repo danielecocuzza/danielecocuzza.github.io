@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Master’s Degree Graduation 🎓"
+title: "Master’s Degree Graduation"
 date: 2025-07-24
 media:
   - type: image
@@ -21,6 +21,8 @@ media:
     src: /assets/img/posts/master/7.jpg
   - type: image
     src: /assets/img/posts/master/8.jpg
+  
+category: education
 ---
 
 I obtained my **Master’s Degree in Computer Science – Data Science track** at the University of Catania with **110/110 cum laude**.  

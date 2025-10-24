@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Started as Software Engineer 💼"
+title: "Started as Software Engineer"
 date: 2022-12-13
+category: work
 ---
 
 I started working as a **Software Engineer** at AITHO.  
