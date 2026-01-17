@@ -69,6 +69,28 @@ permalink: /cv/
 <section>
   <h2>Work Experiences</h2>
 
+    <div class="cv-item">
+      <div class="cv-item__main">
+      <h3>Research Fellow · University of Catania</h3>
+      <div class="cv-meta"><span>2026-Present</span></div>
+      <ul class="cv-bullets">
+        <li>
+          Awarded a research grant titled
+          <strong>“AI-Surveillance: Artificial Intelligence for Urban Security and Monitoring”</strong>.
+        </li>
+        <li>
+          Research activity carried out within the
+          <strong>IP Lab research group</strong> at the
+          <strong>Department of Mathematics and Computer Science</strong>.
+        </li>
+        <li>
+          Focus on the application of <strong>Artificial Intelligence</strong> techniques for urban safety, monitoring, and surveillance.
+        </li>
+      </ul>
+    </div>
+  </div>
+
+
   <div class="cv-item">
     <div class="cv-item__main">
       <h3>DevOps Engineer · REETURN SRLS</h3>
