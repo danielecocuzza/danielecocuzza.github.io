@@ -1,9 +1,17 @@
 ---
-layout: page
-title: 
+layout: default
+title: "AI Blog | Machine Learning, Computer Vision & Research"
+description: "Articles and notes on Machine Learning, Computer Vision, Deep Learning, research and professional experience."
 permalink: /blog/
 ---
-<h1 class="section-title">Blog</h1>
+<h1 class="hero-title">AI & Machine Learning Blog</h1>
+
+<p class="hero-subtitle">
+Insights on Machine Learning, Computer Vision, Deep Learning, research and real-world experience.
+</p>
+<p style="display:none;">
+machine learning blog, computer vision blog, deep learning articles, AI research notes, data science blog, artificial intelligence projects and insights
+</p>
 
 {% assign categories = site.posts | map: 'category' | uniq %}
 

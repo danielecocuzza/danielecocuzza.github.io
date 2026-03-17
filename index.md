@@ -1,27 +1,35 @@
 ---
 layout: home
-title: ""
+title: "Daniele Cocuzza | AI & Computer Vision Engineer"
+description: "Computer Scientist specialized in Machine Learning, Computer Vision and Deep Learning. Projects, research and AI applications."
+hide_title: true
 ---
 
 ---
 ---
-<h1 class="section-title">Short Bio</h1>
+<h1 class="hero-title">Daniele Cocuzza</h1>
+
+<p class="hero-subtitle">
+AI Engineer · Machine Learning · Computer Vision · Deep Learning
+</p>
 
 <div class="bio">
   <div class="bio__text">
-I completed my Bachelor’s Degree in Computer Science at the University of Catania, graduating with full mark (110) cum laude, where I built a solid foundation in software development, algorithms, and data management. After that, I continued with a Master’s Degree in Computer Science (Data Science track), also graduating with full mark (110) cum laude, with a focus on Machine Learning, Computer Vision, and Deep Learning. 
+I am <strong>Daniele Cocuzza</strong>, a Computer Science graduate from the University of Catania, where I completed both my Bachelor's and Master's Degree with full marks (110 cum laude), specializing in Data Science.
 
-During my academic journey, I also gained professional experience in the FinTech sector, where I worked as a DevOps and Software Engineer and contributed to projects using Kubernetes, Azure DevOps, and cross-platform technologies.
+My main areas of interest include Machine Learning, Computer Vision, and Deep Learning, with a strong focus on building practical AI solutions for real-world problems.
 
-I am particularly interested in applying Artificial Intelligence and data-driven approaches to solve real-world problems, and I use this site to share projects, notes, and updates from my work and research journey.
+During my academic journey, I also gained professional experience in the FinTech sector as a DevOps and Software Engineer, working with technologies such as Kubernetes and Azure DevOps.
 
+This website showcases my projects, research, and work in Artificial Intelligence, data science, and software development.
   </div>
 
-<div class="bio__photo">
-  <img src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Daniele Cocuzza">
+  <div class="bio__photo">
+    <img src="{{ '/assets/img/profile.jpg' | relative_url }}" 
+         alt="Daniele Cocuzza AI Engineer Computer Vision Machine Learning">
+  </div>
 </div>
 
-</div>
 <div style="margin-top: 0.5rem;"></div>
 ---
 ---
@@ -39,19 +47,19 @@ I am particularly interested in applying Artificial Intelligence and data-driven
   <article class="proj-card">
     <h3><b>Coin Detection & Recognition</b></h3>
     <p>Coin detection and classification from images using YOLO.</p>
-    <a href="https://github.com/danielecocuzza/coin_recognition">🔗 Repository</a>
+    <a href="https://github.com/danielecocuzza/coin_recognition" rel="noopener" target="_blank">🔗 Repository</a>
   </article>
 
   <article class="proj-card">
     <h3><b>NLP Sentiment Analysis</b></h3>
     <p>Sentiment analysis with BERT embeddings and a lexicon-based K-NN approach.</p>
-    <a href="https://github.com/danielecocuzza/nlp-sentiment-analysis">🔗 Repository</a>
+    <a href="https://github.com/danielecocuzza/nlp-sentiment-analysis" rel="noopener" target="_blank">🔗 Repository</a>
   </article>
 
   <article class="proj-card">
     <h3><b>UFO Sightings</b></h3>
     <p>Insights on sightings: peak times, hotspots, and weather conditions.</p>
-    <a href="https://github.com/danielecocuzza/ufo_sightings">🔗 Repository</a>
+    <a href="https://github.com/danielecocuzza/ufo_sightings" rel="noopener" target="_blank">🔗 Repository</a>
   </article>
 </div>
 

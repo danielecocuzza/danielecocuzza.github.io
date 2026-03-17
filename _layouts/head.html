@@ -5,16 +5,28 @@
 
   {%- seo -%}
 
- <title>{{ site.title }}</title>
+  <link rel="shortcut icon" href="{{ '/favicon.ico?v=2' | relative_url }}" type="image/x-icon">
+  <link rel="icon" href="{{ '/favicon.ico?v=2' | relative_url }}" type="image/x-icon">
 
-<link rel="shortcut icon" href="{{ '/favicon.ico?v=2' | relative_url }}" type="image/x-icon">
-<link rel="icon" href="{{ '/favicon.ico?v=2' | relative_url }}" type="image/x-icon">
-
-
-
-  <!-- CSS -->
   <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
 
-  <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Daniele Cocuzza",
+  "url": "https://danielecocuzza.github.io",
+  "sameAs": [
+    "https://github.com/danielecocuzza"
+  ],
+  "jobTitle": "AI Engineer",
+  "knowsAbout": [
+    "Machine Learning",
+    "Computer Vision",
+    "Deep Learning"
+  ]
+}
+</script>
 </head>
