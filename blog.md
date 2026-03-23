@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "AI Blog | Machine Learning, Computer Vision & Research"
+title: "Daniele Cocuzza | Machine Learning, Computer Vision & Research"
 description: "Articles and notes on Machine Learning, Computer Vision, Deep Learning, research and professional experience."
 permalink: /blog/
 ---

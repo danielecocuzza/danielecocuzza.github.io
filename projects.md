@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "AI & Machine Learning Projects | Daniele Cocuzza"
+title: "Daniele Cocuzza | AI Projects"
 description: "Portfolio of Machine Learning, Computer Vision, Deep Learning and AI projects including YOLO, GANs, NLP and cloud systems."
 permalink: /projects/
 hide_title: true
