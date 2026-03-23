@@ -9,7 +9,7 @@ hide_title: true
 <h1 class="hero-title">AI & Machine Learning Projects</h1>
 
 <p class="hero-subtitle">
-Machine Learning, Computer Vision and Deep Learning projects focused on real-world applications.
+Machine Learning, Computer Vision and Deep Learning projects
 </p>
 
 <div class="projects-grid">
