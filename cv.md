@@ -71,7 +71,7 @@ permalink: /cv/
 
     <div class="cv-item">
       <div class="cv-item__main">
-      <h3>Research Fellow · University of Catania</h3>
+      <h3>Research Assistant · University of Catania</h3>
       <div class="cv-meta"><span>2026-Present</span></div>
       <ul class="cv-bullets">
         <li>

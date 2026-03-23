@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Research Fellow at University of Catania"
+title: "Research Assistant at University of Catania"
 date: 2026-01-16
 category: work
 ---
