@@ -1,17 +1,12 @@
 ---
 layout: home
-title: "Daniele Cocuzza | AI & Computer Vision Engineer"
+title: "Daniele Cocuzza"
 description: "Computer Scientist specialized in Machine Learning, Computer Vision and Deep Learning. Projects, research and AI applications."
 hide_title: true
 ---
 
 ---
 ---
-<h1 class="hero-title">Daniele Cocuzza</h1>
-
-<p class="hero-subtitle">
-AI Engineer · Machine Learning · Computer Vision · Deep Learning
-</p>
 
 <div class="bio">
   <div class="bio__text">
