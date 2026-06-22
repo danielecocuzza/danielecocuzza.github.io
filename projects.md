@@ -10,10 +10,20 @@ hide_title: true
 
 <div class="projects-grid">
   <div class="project-card">
-   <h3>BLIND: BackLight Imaging for iNtrinsic Document fingerprinting </h3>
-  <p> Document authentication using <strong>Computer Vision</strong> techniques and <strong>Histogram of Oriented Gradients (HOG)</strong>. 
-  The system extracts intrinsic paper features through backlighting, achieving high accuracy in document fingerprinting and identity verification.
-</p>
+    <h3>Licence Plate Recognition</h3>
+    <p>Degraded licence plate restoration for improving <strong>OCR-based recognition</strong> in real-world scenarios. The pipeline is based on a <strong>GAN</strong> with an Autoencoder generator and experiments on the <strong>XLPSR dataset</strong>.</p>
+  </div>
+
+  <div class="project-card">
+    <h3>BLIND: Bottom-Layer INtrinsic Document fingerprinting with a Siamese Network </h3>
+    <p>Paper document authentication by extracting a distinctive fingerprint from the random arrangement of <strong>wood fibers</strong> visible through backlighting. The method uses a <strong>Siamese Neural Network</strong> trained with contrastive loss and evaluated through cosine similarity retrieval.</p>
+  </div>
+
+  <div class="project-card">
+    <h3>BLIND: BackLight Imaging for iNtrinsic Document fingerprinting </h3>
+    <p> Document authentication using <strong>Computer Vision</strong> techniques and <strong>Histogram of Oriented Gradients (HOG)</strong>. 
+    The system extracts intrinsic paper features through backlighting, achieving high accuracy in document fingerprinting and identity verification.
+    </p>
   </div>
 
   <div class="project-card">
@@ -67,13 +77,6 @@ hide_title: true
   </div>
 
 
-  <!--
-  <div class="project-card">
-    <h3>Texture analysis</h3>
-    <p>Studio e appunti su LBP, Gabor, HOG.</p>
-    Nessun link GitHub 
-  </div>
-  -->
 
 </div>
 
