@@ -10,13 +10,13 @@ hide_title: true
 
 <div class="bio">
   <div class="bio__text">
-I am <strong>Daniele Cocuzza</strong>, a Computer Science graduate from the University of Catania, where I completed both my Bachelor's and Master's Degree with full marks (110 cum laude), specializing in Data Science.
+I am <strong>Daniele Cocuzza</strong>, a Computer Science graduate from the University of Catania, where I completed both my Bachelor's and Master's degree with full marks (110 cum laude), specializing in Data Science.
 
 My main areas of interest include Machine Learning, Computer Vision, and Deep Learning, with a strong focus on building practical AI solutions for real-world problems.
 
 During my academic journey, I also gained professional experience in the FinTech sector as a DevOps and Software Engineer, working with technologies such as Kubernetes and Azure DevOps.
 
-This website showcases my projects, research, and work in Artificial Intelligence, data science, and software development.
+This website showcases my projects, research, and work in Artificial Intelligence, Data Science, and software development.
   </div>
 
   <div class="bio__photo">
