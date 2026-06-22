@@ -4,7 +4,6 @@ title: "Daniele Cocuzza | Machine Learning, Computer Vision & Research"
 description: "Articles and notes on Machine Learning, Computer Vision, Deep Learning, research and professional experience."
 permalink: /blog/
 ---
-<h1 class="hero-title">My experiences</h1>
 
 <p style="display:none;">
 machine learning blog, computer vision blog, deep learning articles, AI research notes, data science blog, artificial intelligence projects and insights

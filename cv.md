@@ -114,6 +114,29 @@ permalink: /cv/
   </div>
 </section>
 
+<section>
+  <h2>Language Certification</h2>
+
+  <div class="cv-item">
+    <div class="cv-item__main">
+      <h3>English Certification · Wall Street English School</h3>
+      <div class="cv-meta"><span>2025–2026</span></div>
+      <ul class="cv-bullets">
+        <li>Obtained a <strong>CEFR C1 English certificate</strong>.</li>
+        <li>Completed the course from <strong>July 16, 2025</strong> to <strong>June 19, 2026</strong>.</li>
+        <li>
+          <a href="{{ site.baseurl }}/assets/certification/Attestato%20Cocuzza%20Daniele.pdf" target="_blank" class="certificate-button">
+            View / Download Certificate
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+
+
+</section>
+
 <!-- skills -->
 <section>
   <h2>Skills</h2>

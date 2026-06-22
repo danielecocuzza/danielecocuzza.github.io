@@ -6,15 +6,11 @@ permalink: /projects/
 hide_title: true
 ---
 
-<h1 class="hero-title">AI & Machine Learning Projects</h1>
 
-<p class="hero-subtitle">
-Machine Learning, Computer Vision and Deep Learning projects
-</p>
 
 <div class="projects-grid">
   <div class="project-card">
-   <h3>BLIND: Document Fingerprinting with Computer Vision</h3>
+   <h3>BLIND: BackLight Imaging for iNtrinsic Document fingerprinting </h3>
   <p> Document authentication using <strong>Computer Vision</strong> techniques and <strong>Histogram of Oriented Gradients (HOG)</strong>. 
   The system extracts intrinsic paper features through backlighting, achieving high accuracy in document fingerprinting and identity verification.
 </p>
