@@ -15,7 +15,7 @@ machine learning blog, computer vision blog, deep learning articles, AI research
   <section class="category-block">
     <h2 class="category-title">
       {% if cat == "education" %} 🎓 Education
-      {% elsif cat == "work" %} 💼 Work Experience
+      {% elsif cat == "work" %} 💼 Work
       {% elsif cat == "research" %} 🧠 Research
       {% else %} 🗂️ {{ cat | capitalize }}
       {% endif %}
