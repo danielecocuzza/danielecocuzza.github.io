@@ -1234,3 +1234,24 @@ html.dark .category-block .timeline li::before {
 .light-mode .certificate-button:hover { background-color: #2563eb; color: #ffffff; text-decoration: none; } 
 .dark-mode .certificate-button { background-color: transparent; color: #93c5fd; border: 1px solid #93c5fd; } 
 .dark-mode .certificate-button:hover { background-color: #93c5fd; color: #1f3347; text-decoration: none; }
+
+
+
+
+
+
+.linkedin-embed-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.linkedin-embed-wrapper iframe {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.linkedin-fallback {
+  text-align: center;
+  margin-top: 1rem;
+}
